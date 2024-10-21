@@ -1,7 +1,11 @@
 library app_stack;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+// Core
+export 'core/ui/widgets/widgets.dart';
+export 'core/constants/constants.dart';
+
+// Features
+export 'features/auth/auth.dart';
+
+// Routing
+export 'package:go_router/go_router.dart';
